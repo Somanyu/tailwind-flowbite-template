@@ -1,20 +1,17 @@
 import React from "react";
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import HeroSection from "./components/HeroSection/HeroSection";
-// import CTA from "./components/CTA/CTA";
-import Feature from "./components/Feature/Feature";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home/Home";
+import Register from "./Pages/Register/Register";
 
 function App() {
 	return (
-		<div className="">
-			<Header />
-			<HeroSection />
-			{/* <CTA /> */}
-			<Feature />
-			<Footer />
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route index element={<Home />} />
+				<Route path="/register" element={<Register />} />
+			</Routes>
+		</BrowserRouter>
 	);
 }
 
