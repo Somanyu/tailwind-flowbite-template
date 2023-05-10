@@ -1,11 +1,20 @@
 import React from "react";
 import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import HeroSection from "./components/HeroSection/HeroSection";
+// import CTA from "./components/CTA/CTA";
+import Feature from "./components/Feature/Feature";
 
 function App() {
 	return (
-		<h1 className="text-3xl font-bold underline text-center text-amber-800">
-			Hello world!
-		</h1>
+		<div className="">
+			<Header />
+			<HeroSection />
+			{/* <CTA /> */}
+			<Feature />
+			<Footer />
+		</div>
 	);
 }
 
