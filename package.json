@@ -1,7 +1,9 @@
 {
  "name": "tailwind-flowbite-template",
  "version": "0.1.0",
- "private": true,
+ "description": "This is a sample ReactJS application that demonstrates a suggested project structure for organizing your codebase using Tailwind CSS and Flowbite.",
+ "private": false,
+ "author": "Somanyu somanyu.03samal@gmail.com",
  "dependencies": {
   "@testing-library/jest-dom": "^5.16.5",
   "@testing-library/react": "^13.4.0",
@@ -20,6 +22,17 @@
   "test": "react-scripts test",
   "eject": "react-scripts eject"
  },
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/Somanyu/tailwind-flowbite-template"
+ },
+ "keywords": [
+  "ReactJS",
+  "Tailwind CSS",
+  "Flowbite",
+  "Template",
+  "Folder Structure"
+ ],
  "eslintConfig": {
   "extends": [
    "react-app",
